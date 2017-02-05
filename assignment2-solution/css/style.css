@@ -32,8 +32,6 @@
 
   /********** Large devices only **********/
   @media (min-width: 992px) {
-    .col-desktop-1, .col-desktop-2, .col-desktop-3 {
-    }
     .col-desktop-1 {
       width: 33.33%;
     }
@@ -46,9 +44,6 @@
   }
   /********** Medium devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
-    .col-tablet-1, .col-tablet-2 {
-      float: left;
-    }
     .col-tablet-1 {
       width: 50%;
     }
